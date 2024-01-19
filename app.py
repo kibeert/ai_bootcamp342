@@ -5,7 +5,7 @@ import streamlit as st
 diseases_model = pickle.load(open('diseases_model.sav', 'rb'))
 
 # Diseases Prediction Page title
-st.title("France's Smart Health Checker")
+st.title("Smart Health Checker")
 
 # Define a subset of common diseases
 common_diseases = [
